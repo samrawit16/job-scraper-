@@ -47,9 +47,9 @@ The failure mode is consistent and understandable: the model is conservative. It
 
 ```bash
 npm install
-npx tsx src/scrape.ts                  # collect jobs from both sources
-npx tsx --env-file=.env src/enrich.ts  # LLM seniority classification (needs GROQ_API_KEY in .env)
-npx tsx --env-file=.env src/skills.ts  # LLM skill extraction
+npx tsx src/scrape.ts                  
+npx tsx --env-file=.env src/enrich.ts  
+npx tsx --env-file=.env src/skills.ts  
 npx tsx src/audit.ts                   # writes a 30-posting sample for human labeling
 npx tsx src/evaluate.ts                # compares model vs. human labels
 npx tsx src/fallback.ts                # applies the title-based fallback to unknowns
