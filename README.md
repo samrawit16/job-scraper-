@@ -50,6 +50,6 @@ npm install
 npx tsx src/scrape.ts                  
 npx tsx --env-file=.env src/enrich.ts  
 npx tsx --env-file=.env src/skills.ts  
-npx tsx src/audit.ts                   # writes a 30-posting sample for human labeling
-npx tsx src/evaluate.ts                # compares model vs. human labels
-npx tsx src/fallback.ts                # applies the title-based fallback to unknowns
+npx tsx src/audit.ts                   
+npx tsx src/evaluate.ts                
+npx tsx src/fallback.ts                
