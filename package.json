@@ -1,0 +1,23 @@
+{
+  "name": "job-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^26.6.4",
+    "cheerio": "^1.2.0",
+    "dotenv": "^18.0.5",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15"
+  }
+}
